@@ -1,0 +1,59 @@
+*{
+  background-color: white;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-image: url(https://i.imgur.com/Xyp1VnT.png);
+}
+
+/* Navbar links */
+#navbar a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*Header */
+#header img{
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+
+}
+/* Header subtitle */
+#subtitle {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 0;
+}
+
+
+#aboutText{
+  font-size: 24px;
+}
+
