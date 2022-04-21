@@ -8,11 +8,11 @@ export default function NavBar(props) {
       <div id="navbar">
         <nav>
           <img src="https://i.imgur.com/fe7Wdm1.png?1" title="source: imgur.com" width="200px"/>
-          <a href="login">LOGIN</a>
-          <a href="#favorites">FAVORITES</a>
-          <a href="#featured">FEATURED LOCATION</a>
+          <Link to="/Login">LOGIN</Link>
+          <Link to="/Favorites">FAVORITES</Link>
+          <Link to="/FeaturedLocation">FEATURED LOCATION</Link>
           <Link to="/My50">MY 50</Link>
-          <a href="#home">HOME</a>
+          <Link to="/">HOME</Link>
         </nav>
       </div>
     );
