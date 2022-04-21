@@ -7,6 +7,7 @@
 #navbar {
   overflow: hidden;
   width: 100%;
+  height: 80px;
   background-attachment: fixed;
   background-color: cadetblue;
 }
@@ -19,6 +20,12 @@
   text-decoration: none;
   background-color: cadetblue;
   font-size: 24px;
+  float: right;
+}
+
+#navbar img{
+  background-color: cadetblue;
+  margin-top: 15px;
 }
 
 /* Page content */
@@ -82,4 +89,23 @@
 
 #boxes{
   padding: 40px;
+}
+
+/* Style the footer */
+#footer {
+  overflow: hidden;
+  width: 100%;
+  height: 150px;
+  background-attachment: fixed;
+  background-color: cadetblue;
+}
+
+/* Footerlinks */
+#footer a {
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  background-color: cadetblue;
+  font-size: 24px;
 }

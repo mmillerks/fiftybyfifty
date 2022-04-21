@@ -10,8 +10,8 @@ export default function About(props) {
           <div id="boxes">
               <p>WHO WE ARE</p>
               <p id="aboutText">
-                  Intrepid. <br/> 
-                  Inspired. <br />
+                  Intrepid spirits. <br/> 
+                  Inspired minds. <br />
                   Bound by the desire to visit all fifty of these United States by the age of 50.
               </p>
           </div>
