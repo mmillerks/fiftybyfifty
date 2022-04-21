@@ -4,31 +4,24 @@ import About from './components/About/About';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import FeaturedLocation from './components/FeaturedLocation/FeaturedLocation';
+import Home from './pages/Home';
 import './App.css';
 
 
-// import { useState } from 'react';
-// import { Routes } from 'react-router-dom';
-
-
-
-
-
+import { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <div>
       <style>@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');</style>
-      <div><NavBar/></div>
-
-      <div><Header/></div>
-
-      <div><About/></div>
-
-      <div><FeaturedLocation/></div>
-
-      <div><Footer/></div>
+      <main className="App">
+        { <Routes>
+            <Route path="/home" element={<Home />} />
+          </Routes>
+        }
+      </main>
 
 
     </div>
