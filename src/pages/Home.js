@@ -4,6 +4,7 @@ import About from "../components/About/About";
 import FeaturedLocation from "../components/FeaturedLocation/FeaturedLocation";
 import Footer from "../components/Footer/Footer";
 
+import React from "react";
 
 export default function Home(props) {
     return (

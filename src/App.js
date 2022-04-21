@@ -9,21 +9,26 @@ import './App.css';
 
 
 import { useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+
+
 
 
 function App() {
+  const [user, setUser] = useState({});
   return (
     <div>
       <style>@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');</style>
+      
       <main className="App">
-        { <Routes>
-            <Route path="/home" element={<Home />} />
-          </Routes>
-        }
+      <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
       </main>
 
-
+      
     </div>
   );
 }
