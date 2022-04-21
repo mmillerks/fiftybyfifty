@@ -6,16 +6,19 @@
 /* Style the navbar */
 #navbar {
   overflow: hidden;
-  background-image: url(https://i.imgur.com/Xyp1VnT.png);
+  width: 100%;
+  background-attachment: fixed;
+  background-color: cadetblue;
 }
 
 /* Navbar links */
 #navbar a {
-  float: right;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px;
   text-decoration: none;
+  background-color: cadetblue;
+  font-size: 24px;
 }
 
 /* Page content */
@@ -36,15 +39,15 @@
 }
 
 /*Header */
-#header img{
-  width: 50%;
+/* #header img{
+  width: 200px;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 75px;
+} */
 
-}
 /* Header subtitle */
 #subtitle {
   font-size: 48px;
@@ -53,7 +56,30 @@
 }
 
 
-#aboutText{
+#aboutText {
   font-size: 24px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+#pin img{
+  height: 100%;
+  width: auto;
+}
+
+#aboutBox{
+  display: flex;
+  flex-direction: row;
+  border-left: black;
+  font-size: 24px;
+  align-items: top;
+}
+
+#boxes{
+  padding: 40px;
+}
