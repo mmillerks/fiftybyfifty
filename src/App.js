@@ -6,6 +6,8 @@ import Footer from './components/Footer/Footer';
 import FeaturedLocation from './pages/FeaturedLocation';
 import Home from './pages/Home';
 import My50 from './pages/My50';
+import Favorites from './pages/Favorites';
+import Login from './pages/Login';
 import './App.css';
 
 
@@ -27,6 +29,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/My50" element={<My50 />} />
             <Route path="/FeaturedLocation" element={<FeaturedLocation />} />
+            <Route path="/Login" element={<Login />} />
+            <Route path="/Favorites" element={<Favorites />} />
         </Routes>
       </BrowserRouter>
       </main>

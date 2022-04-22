@@ -8,13 +8,12 @@ import { BrowserRouter } from "react-router-dom";
 export default function My50(props) {
     return (
     <div>
-        <BrowserRouter>
-            <div><NavBar/></div>
+        
+        <div><NavBar /></div>
 
-            <div><StateList/></div>
+        <div><StateList /></div>
 
-            <div><Footer/></div>
-        </BrowserRouter>
+        <div><Footer /></div>
 
     </div>
     );
