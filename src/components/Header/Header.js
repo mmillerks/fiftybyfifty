@@ -7,6 +7,7 @@ export default function Header(props) {
 
         <div>
             <p id="subtitle">A travel log for modern adventurers</p>
+            <p id="tagline">bound by the desire to visit all of these United States by age 50</p>
         </div>
     </div>
     );

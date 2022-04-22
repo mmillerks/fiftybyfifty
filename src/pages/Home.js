@@ -5,6 +5,7 @@ import FeaturedLocation from "../components/FeaturedLocation/FeaturedLocation";
 import Footer from "../components/Footer/Footer";
 
 import React from "react";
+import HomeCarousel from "../components/HomeCarousel/HomeCarousel";
 
 export default function Home(props) {
     return (
@@ -13,9 +14,9 @@ export default function Home(props) {
 
         <div><Header/></div>
 
-        <div><About/></div>
+        {/* <div><About/></div> */}
 
-        <div><FeaturedLocation/></div>
+        <div><HomeCarousel/></div>
 
         <div><Footer/></div>
 
