@@ -1,5 +1,19 @@
 export default function AddFavorite(props) {
     return (
-      <div>Favorites form</div>
+      <div>Add favorites form
+
+          <div>
+              <form>
+                  <input type="text"></input>
+              </form>
+          </div>
+
+
+
+
+
+
+      </div>
+
     );
   }

@@ -118,3 +118,19 @@
   margin: 20px;
   width: 100%;
 }
+
+.MyMap {
+  background: lightgray;
+}
+
+.MyMap img {
+  background-color: rgb(201, 181, 181);
+}
+
+#LoginForm {
+  background-color: grey;
+}
+
+#UserLogin{
+  border: 5px grey;
+}
