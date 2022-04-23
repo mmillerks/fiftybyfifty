@@ -45,15 +45,9 @@
   padding-top: 60px;
 }
 
-/*Header */
-/* #header img{
-  width: 200px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 75px;
-} */
+#header {
+  margin-top: 0;
+}
 
 /* Header subtitle */
 #subtitle {
@@ -135,10 +129,21 @@
   background-color: rgb(201, 181, 181);
 }
 
-#LoginForm {
-  background-color: grey;
+.loginForm {
+  background-color: whitesmoke;
+  width: 80%;
+  padding: 20px;
 }
 
-#UserLogin{
-  border: 5px grey;
+.loginForm input {
+  padding: 10px;
+  width: 95%;
+  border-radius: 10px;
+  border-color: darkgray;
 }
+
+
+#addFavorite {
+  background-color: whitesmoke;
+}
+

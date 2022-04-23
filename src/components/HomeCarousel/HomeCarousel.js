@@ -1,49 +1,26 @@
+import React from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
+
 export default function HomeCarousel(props) {
     return (
         <div>
-            <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel">
-                <div class="carousel-indicators">
-                    <button
-                    type="button"
-                    data-mdb-target="#carouselExampleIndicators"
-                    data-mdb-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                    ></button>
-                    <button
-                    type="button"
-                    data-mdb-target="#carouselExampleIndicators"
-                    data-mdb-slide-to="1"
-                    aria-label="Slide 2"
-                    ></button>
-                    <button
-                    type="button"
-                    data-mdb-target="#carouselExampleIndicators"
-                    data-mdb-slide-to="2"
-                    aria-label="Slide 3"
-                    ></button>
+            <Carousel>
+                <div>
+                    <img src="https://i.imgur.com/SsEh7so.jpg" />
+                    <p className="legend">Legend 1</p>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                    <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="d-block w-100" alt="Wild Landscape"/>
-                    </div>
-                    <div class="carousel-item">
-                    <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera"/>
-                    </div>
-                    <div class="carousel-item">
-                    <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="d-block w-100" alt="Exotic Fruits"/>
-                    </div>
+                <div>
+                    <img src="https://i.imgur.com/udsMOM4.jpg" />
+                    <p className="legend">Legend 2</p>
                 </div>
-                <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-</div>
+                <div>
+                    <img src="https://i.imgur.com/YR5sByv.jpg" />
+                    <p className="legend">Legend 3</p>
+                </div>
+            </Carousel>
+
         </div>
             
     );

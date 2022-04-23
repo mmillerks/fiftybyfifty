@@ -2,8 +2,8 @@ export default function LoginForm(props) {
     return (
       <div>Login form
 
-          <div>
-              <form>
+          <div class="container">
+              <form class="loginForm">
                   <label for="fname">First Name: </label>
                   <input type="text"></input> <br/>
 
