@@ -9,7 +9,7 @@ import HomeCarousel from "../components/HomeCarousel/HomeCarousel";
 
 export default function Home(props) {
     return (
-    <div>
+    <div id="home">
         <div><NavBar/></div>
 
         <div><Header/></div>

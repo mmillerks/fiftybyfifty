@@ -11,17 +11,15 @@ import MyFavorites from "../components/MyFavorites/MyFavorites";
 export default function My50(props) {
     return (
     <div>
-        
         <div><NavBar /></div>
         <br/>
+
+        <div>Welcome </div>
 
         <div><StateList /></div>
         <br/>
 
         <div><MyMap /></div>
-        <br/>
-
-        <div><AddFavorite/></div>
         <br/>
 
         <div><MyFavorites/></div>

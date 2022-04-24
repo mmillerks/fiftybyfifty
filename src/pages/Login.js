@@ -10,9 +10,9 @@ export default function Login(props) {
        
             <div><NavBar/></div>
 
-            <div id="LoginForm"><LoginForm/></div>
+            <div><LoginForm/></div>
 
-            <div id="UserLogin"><UserLogin/></div>
+            <div><UserLogin/></div>
 
             <div><Footer/></div>
 

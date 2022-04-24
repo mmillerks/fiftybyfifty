@@ -1,13 +1,20 @@
+
+
 *{
   background-color: white;
   font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+#home {
+  background-image: url("https://i.imgur.com/M0hwRYT.png");
 }
 
 /* Style the navbar */
 #navbar {
   overflow: hidden;
   width: 100%;
-  height: 80px;
+  height: 95px;
   background-attachment: fixed;
   background-color: cadetblue;
 }
@@ -24,7 +31,6 @@
 }
 
 #navbar img{
-  background-color: cadetblue;
   margin-top: 15px;
 }
 
@@ -47,6 +53,7 @@
 
 #header {
   margin-top: 0;
+  background-color: transparent;
 }
 
 /* Header subtitle */
@@ -74,6 +81,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 5%;
+  background-color: transparent;
 }
 
 #pin img{
@@ -115,10 +123,10 @@
 .states {
   background: whitesmoke;
   font-size: 20px;
-  border: solid 6px darkgray;
   padding: 20px;
   margin: 20px;
   width: 100%;
+  display: flex;
 }
 
 .MyMap {
@@ -147,3 +155,56 @@
   background-color: whitesmoke;
 }
 
+tr {
+  line-height: 30px;
+}
+
+td {
+  padding: 10px;
+}
+
+tl {
+  margin: 10px;
+}
+
+/* #addfavForm{
+  border: solid 6px darkgray;
+} */
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}

@@ -21,7 +21,6 @@ function App() {
   const [user, setUser] = useState({});
   return (
     <div>
-      <style>@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');</style>
       
       <main className="App">
       <BrowserRouter>

@@ -1,9 +1,8 @@
 
 export default function FavoriteList(props) {
     return (
-      <div>Favorite List
-
-
+      <div>See all favorites
+        
       </div>
 
     );

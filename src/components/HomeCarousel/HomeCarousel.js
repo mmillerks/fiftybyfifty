@@ -8,7 +8,7 @@ export default function HomeCarousel(props) {
         <div>
             <Carousel>
                 <div>
-                    <img src="https://i.imgur.com/SsEh7so.jpg" />
+                    <img src="https://i.imgur.com/klg7sai.jpg" />
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
