@@ -12,11 +12,11 @@ export default function HomeCarousel(props) {
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
-                    <img src="https://i.imgur.com/udsMOM4.jpg" />
+                    <img src="https://i.imgur.com/woZM1D9.jpg" />
                     <p className="legend">Legend 2</p>
                 </div>
                 <div>
-                    <img src="https://i.imgur.com/YR5sByv.jpg" />
+                    <img src="https://i.imgur.com/2of4VFG.jpg" />
                     <p className="legend">Legend 3</p>
                 </div>
             </Carousel>
