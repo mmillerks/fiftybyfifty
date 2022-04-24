@@ -3,9 +3,61 @@ import { useState } from "react";
 import useCollapse from 'react-collapsed';
 
 
-
 export default function StateList(props) {
     const al = useRef()
+    const ak = useRef()
+    const az = useRef()
+    const ca = useRef()
+    const co = useRef()
+    const ct = useRef()
+    const de = useRef()
+    const fl = useRef()
+    const ga = useRef()
+    const hi = useRef()
+    const id = useRef()
+    const il = useRef()
+    const ind = useRef()
+    const ia = useRef()
+    const ks = useRef()
+    const ky = useRef()
+    const la = useRef()
+    const me = useRef()
+    const my = useRef()
+    const ms = useRef()
+    const mc = useRef()
+    const mic = useRef()
+    const min = useRef()
+    const mis = useRef()
+    const miz = useRef()
+    const mon = useRef()
+    const ne = useRef()
+    const nv = useRef()
+    const nh = useRef()
+    const nj = useRef()
+    const nm = useRef()
+    const ny = useRef()
+    const nc = useRef()
+    const nd = useRef()
+    const oh = useRef()
+    const ok = useRef()
+    const or = useRef()
+    const pa = useRef()
+    const ri = useRef()
+    const sc = useRef()
+    const sd = useRef()
+    const tn = useRef()
+    const tx = useRef()
+    const ut = useRef()
+    const vt = useRef()
+    const va = useRef()
+    const wa = useRef()
+    const wv = useRef()
+    const wi = useRef()
+    const wy = useRef()
+
+
+
+    const refArr = [al, ]
 
     const handleChange = () => {
         console.log(al.current.checked)
@@ -13,6 +65,10 @@ export default function StateList(props) {
     
     const [isExpanded, setExpanded] = useState(false)
     const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded })
+
+    //use state selected
+    //use state not selected
+
       
     return (
         <div id="expandable">
@@ -21,13 +77,11 @@ export default function StateList(props) {
                 onClick: () => setExpanded((prevExpanded) => !prevExpanded),
                 })}
             >
-                {isExpanded ? 'Collapse' : 'Select States'}
+                {isExpanded ? 'CLOSE -' : 'CLICK TO SELECT STATES VISITED +'}
             </button>
             
             <section {...getCollapseProps()}>
-                <div>
-                    
-                    Select the states visited.
+                <div class="expand">
                     <ul>
                             <h3>SOUTH</h3>
                             <input type="checkbox" name="Alabama" value="yes" ref={al} onChange={handleChange}/>
@@ -56,6 +110,18 @@ export default function StateList(props) {
 
                             <input type="checkbox" name="North Carolina" value="yes"/>
                             <label for="North Carolina">North Carolina</label><br/>
+
+                            <input type="checkbox" name="South Carolina" value="yes"/>
+                            <label for="South Carolina">South Carolina</label><br/>
+
+                            <input type="checkbox" name="Tennessee" value="yes"/>
+                            <label for="Tennessee">Tennessee</label><br/>
+
+                            <input type="checkbox" name="Virginia" value="yes"/>
+                            <label for="Virginia">Virginia</label><br/>
+
+                            <input type="checkbox" name="West Virginia" value="yes"/>
+                            <label for="West Virginia">West Virginia</label><br/>
                     </ul>
 
                     <br/>
@@ -92,6 +158,15 @@ export default function StateList(props) {
 
                             <input type="checkbox" name="Oregon" value="yes"/>
                             <label for="Oregon">Oregon</label><br/>
+
+                            <input type="checkbox" name="Utah" value="yes"/>
+                            <label for="Utah">Utah</label><br/>
+
+                            <input type="checkbox" name="Washington" value="yes"/>
+                            <label for="Washington">Washington</label><br/>
+
+                            <input type="checkbox" name="Wyoming" value="yes"/>
+                            <label for="Wyoming">Wyoming</label><br/>
                         </ul>
                     </div>
                     
@@ -127,6 +202,9 @@ export default function StateList(props) {
 
                             <input type="checkbox" name="Rhode Island" value="yes"/>
                             <label for="Rhode Island">Rhode Island</label><br/>
+
+                            <input type="checkbox" name="Vermont" value="yes"/>
+                            <label for="Vermont">Vermont</label><br/>
 
                         </ul>
                     </div>
@@ -166,6 +244,15 @@ export default function StateList(props) {
 
                             <input type="checkbox" name="Oklahoma" value="yes"/>
                             <label for="Oklahoma">Oklahoma</label><br/>
+
+                            <input type="checkbox" name="South Dakota" value="yes"/>
+                            <label for="South Dakota">South Dakota</label><br/>
+
+                            <input type="checkbox" name="Texas" value="yes"/>
+                            <label for="Texas">Texas</label><br/>
+
+                            <input type="checkbox" name="Wisconsin" value="yes"/>
+                            <label for="Wisconsin">Wisconsin</label><br/>
                         </ul>
                     </div>
 

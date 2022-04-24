@@ -7,6 +7,7 @@ import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import AddFavorite from "../components/AddFavorite/AddFavorite";
 import MyFavorites from "../components/MyFavorites/MyFavorites";
+import My50Status from "../components/My50Status/My50Status";
 
 export default function My50(props) {
     return (
@@ -14,9 +15,13 @@ export default function My50(props) {
         <div><NavBar /></div>
         <br/>
 
-        <div>Welcome </div>
+        <div id="welcome">Welcome </div>
+        <br/>
 
         <div><StateList /></div>
+        <br/>
+
+        <div><My50Status/></div>
         <br/>
 
         <div><MyMap /></div>
