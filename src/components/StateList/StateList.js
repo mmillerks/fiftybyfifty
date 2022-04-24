@@ -14,7 +14,7 @@ export default function StateList(props) {
     const fl = useRef()
     const ga = useRef()
     const hi = useRef()
-    const id = useRef()
+    const ida = useRef()
     const il = useRef()
     const ind = useRef()
     const ia = useRef()
@@ -23,7 +23,7 @@ export default function StateList(props) {
     const la = useRef()
     const me = useRef()
     const my = useRef()
-    const ms = useRef()
+    const mass = useRef()
     const mc = useRef()
     const mic = useRef()
     const min = useRef()
@@ -57,7 +57,9 @@ export default function StateList(props) {
 
 
 
-    const refArr = [al, ]
+    const refArr = [al, ak, az, ca, co, ct, de, fl, ga, hi, ida, il, ind, ia, ks, ky, 
+        la, me, my, mass, mic, min, mis, miz, mon, ne, nv, nh, nj, nm, ny, nc, nd, oh,
+        ok, or, pa, ri, sc, sd, tn, tx, ut, vt, va, wa, wv, wi, wy]
 
     const handleChange = () => {
         console.log(al.current.checked)
