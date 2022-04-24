@@ -10,6 +10,12 @@ export default function Login(props) {
        
             <div><NavBar/></div>
 
+            <div>
+                <h3>Welcome to the 50 BY 50 community. Log in to track your journey across the United States
+                        and find inspiration from like-minded travelers.
+                </h3>
+            </div>
+
             <div><LoginForm/></div>
 
             <div><UserLogin/></div>
