@@ -16,7 +16,7 @@
   width: 100%;
   height: 95px;
   background-attachment: fixed;
-  background-color: cadetblue;
+  background-color: rgb(103, 167, 103);
 }
 
 /* Navbar links */
@@ -25,7 +25,7 @@
   text-align: center;
   padding: 14px;
   text-decoration: none;
-  background-color: cadetblue;
+  background-color: rgb(103, 167, 103);
   font-size: 24px;
   float: right;
 }
@@ -107,7 +107,7 @@
   width: 100%;
   height: 150px;
   background-attachment: fixed;
-  background-color: cadetblue;
+  background-color: rgb(103, 167, 103);
 }
 
 /* Footerlinks */
@@ -177,7 +177,6 @@ tl {
 
 .collapse-button {
   display: flex;
-  width: 100%;
 }
 
 .collapse-content.collapsed {

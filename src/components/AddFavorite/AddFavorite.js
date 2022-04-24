@@ -1,29 +1,41 @@
+import React, {useRef} from "react";
+import { useState } from "react";
+import useCollapse from 'react-collapsed';
 
 
 
 export default function AddFavorite(props) {
+  
+  const [isExpanded, setExpanded] = useState(false)
+  const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded })
+
+
     return (
       <div>
-        
-        <button type="button" class="collapsible">Add Favorite Location</button>
-             <div class="content">
-                    <form>
-                        <div>
-                                 <label>Place:</label><input name="place" type="text"/><br/>
-                                    <br/>
-                                <label>City:</label><input name="city" type="text"/><br/>
-                                         <br/>
-                                 <label>State:</label><input name="state" type="text"/><br/>
-                                         <br/>
-                                 <label>Memories:</label><input name="memories" type="text"/><br/>
-                                         <br/>
-                                 <input type="submit"/>
-                        </div>
-                    </form>
+        <div id="expandable">
+            <button
+                {...getToggleProps({
+                onClick: () => setExpanded((prevExpanded) => !prevExpanded),
+                })}
+            >
+                {isExpanded ? 'Collapse' : 'Add Favorite Location'}
+            </button>
+            
+            <section {...getCollapseProps()}>
+                <div>
+                <label>Place:</label><input name="place" type="text"/><br/>
+                <br/>
+                <label>City:</label><input name="city" type="text"/><br/>
+                      <br/>
+                <label>State:</label><input name="state" type="text"/><br/>
+                      <br/>
+                <label>Memories:</label><input name="memories" type="text"/><br/>
+                      <br/>
+                <input type="submit"/>
                 </div>
-      </div>
+                </section>
+            </div>
+        </div>
 
     );
   }
-
-
