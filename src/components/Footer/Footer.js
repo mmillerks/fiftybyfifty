@@ -8,7 +8,7 @@ export default function Footer(props) {
             </div>
 
             <div id="footSect">
-                <div>ABOUT</div><br/>
+                <div>ABOUT</div>
                 <div>MY 50</div>
                 <div>COMPANY</div>
                 <div>SUPPORT</div>

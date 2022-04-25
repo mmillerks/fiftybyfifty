@@ -13,6 +13,18 @@ import './App.css';
 
 import { useState } from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
+//import mongoose from 'mongoose';
+
+
+//DBASE SETUP
+// require('dotenv').config()
+// const mongoose = require("mongoose");
+// const mongoURI = process.env.MONGO_URI;
+// const db = mongoose.connection;
+// mongoose.connect(mongoURI);
+
+
+
 
 
 

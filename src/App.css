@@ -197,11 +197,12 @@ tl {
 
 #expandable button {
   display: block;
-  width: 100%;
+  width: 80%;
   height: 50px;
   background-color: lightgray;
   font-size: 24px;
   border: none;
+  margin: 20px
 }
 
 .collapse-button {
@@ -226,6 +227,13 @@ tl {
   display: block;
   margin-left: 30px;
 }
+
+.status {
+  display: flex;
+  background-color: whitesmoke;
+  margin: 20px;
+}
+
 
 .statusSect {
   display: flex;
@@ -255,7 +263,4 @@ tl {
   margin: 10px;
 }
 
-button[type="submit"] {
-  grid-column: span 2;
-  margin: 1vmin 0 0;
-}
+
