@@ -1,8 +1,9 @@
 // // //pull schema and model from mongoose using object destructuring
+
 const mongoose = require("mongoose");
 const { Schema, model } = require ("mongoose");
 
-// make coffee schema
+// make favorite schema
 const favoriteSchema = new Schema({
   place: {
       type: String,

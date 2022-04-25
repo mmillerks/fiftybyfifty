@@ -22,12 +22,10 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 // const mongoURI = process.env.MONGO_URI;
 // const db = mongoose.connection;
 // mongoose.connect(mongoURI);
-
-
-
-
-
-
+// Define callback functions for various events
+// db.on("error", (err) => console.log(err.message + " is Mongod not running?"));
+// db.on("open", () => console.log("mongo connected: ", mongoURI));
+// db.on("close", () => console.log("mongo disconnected"));
 
 function App() {
   const [user, setUser] = useState({});

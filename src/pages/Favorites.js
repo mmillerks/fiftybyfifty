@@ -12,7 +12,6 @@ export default function Favorites(props) {
 
             <div><AddFavorite/></div>
 
-
             <div><FavoriteList/></div>
 
             <div><Footer/></div>

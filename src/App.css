@@ -263,4 +263,9 @@ tl {
   margin: 10px;
 }
 
-
+.card {
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: whitesmoke;
+  margin: 40px;
+}
