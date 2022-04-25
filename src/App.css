@@ -107,7 +107,22 @@
   width: 100%;
   height: 150px;
   background-attachment: fixed;
-  background-color: rgb(103, 167, 103);
+  background-color: lightgray;
+}
+
+#footImg {
+  background-color: lightgray;
+}
+
+#footImg img {
+  background-color: lightgray;
+}
+
+#footSect {
+  background-color: lightgray;
+  display: flex;
+  font-size: 18px;
+  margin: 20px;
 }
 
 /* Footerlinks */
@@ -218,4 +233,29 @@ tl {
   width: 30%;
   height: 150px;
   margin: 20px;;
+}
+
+
+#favForm {
+  display: block;
+  margin-left: 15%;
+  margin-top: 15px;
+}
+
+#favForm input {
+  border: grey;
+  background-color: whitesmoke;
+  height: 35px;
+  width: 75%;
+  margin: 10px;
+}
+
+#favForm label {
+  font-size: 24px;
+  margin: 10px;
+}
+
+button[type="submit"] {
+  grid-column: span 2;
+  margin: 1vmin 0 0;
 }

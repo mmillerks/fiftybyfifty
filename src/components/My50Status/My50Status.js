@@ -3,17 +3,30 @@ import Progress_bar from '../ProgressBar/ProgressBar';
 
 export default function My50Status(props) {
     
-
+console.log(props)
 
     return (
-    <div class="status">
-        <div class="statusSect">Unexplored States</div>
+    <div className="status">
+        <div className="statusSect">Unexplored States</div>
         
-        <div class="statusSect">Explored States</div>
+        <div className="statusSect">Explored States
+            <ul>{props.exploredStates.map((state) => {
+                
+                return(
+                    <li className="statusItem">
+                        {state}
+                    </li>
+                )
+            })} </ul>
+        </div>
+
         
         
-        <div class="statusSect">Progress
-            <Progress_bar/>
+        <div className="statusSect">Progress
+            <Progress_bar> </Progress_bar>
+            <br/>
+
+            <Progress_bar> </Progress_bar>
     
         </div>
 

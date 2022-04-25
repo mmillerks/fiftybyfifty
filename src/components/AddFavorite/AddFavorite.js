@@ -18,10 +18,10 @@ export default function AddFavorite(props) {
                 onClick: () => setExpanded((prevExpanded) => !prevExpanded),
                 })}
             >
-                {isExpanded ? 'Collapse' : 'Add Favorite Location'}
+                {isExpanded ? 'CLOSE -' : 'ADD FAVORITE LOCATION +'}
             </button>
             
-            <section {...getCollapseProps()}>
+            <section {...getCollapseProps()} id="favForm"> 
                 <div>
                 <label>Place:</label><input name="place" type="text"/><br/>
                 <br/>
@@ -33,7 +33,7 @@ export default function AddFavorite(props) {
                       <br/>
                 <input type="submit"/>
                 </div>
-                </section>
+              </section>
             </div>
         </div>
 
