@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const { Schema, model } = require ("mongoose");
 
 // make favorite schema
-const favoriteSchema = new Schema({
+const FavoriteSchema = new Schema({
   place: {
       type: String,
       required: true
@@ -28,6 +28,6 @@ const favoriteSchema = new Schema({
 });
 
 // // // make favorite model
-const favorite = model('Favorite', favoriteSchema);
+const Favorite = model('Favorite', FavoriteSchema);
 
-module.exports = favorite;
+module.exports = Favorite;

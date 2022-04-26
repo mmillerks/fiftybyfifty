@@ -1,16 +1,16 @@
+require('dotenv').config();
+
 const express = require('express');
 const path = require('path');
 const logger = require('morgan');
 const app = express();
 const mongoose = require("mongoose");
-const MongoStore = require('connect-mongo');
-const session = require('express-session');
-const UserRouter = require('./controllers/user');
+// const session = require('express-session');
+// const UserRouter = require('./controllers/user');
 const morgan = require("morgan"); //import morgan
-const methodOverride = require("method-override");
 
 
-require('dotenv').config();
+
 require('./database');
 
 app.use(logger('dev'));

@@ -7,9 +7,22 @@ console.log(props)
 
     return (
     <div className="status">
-        <div className="statusSect">Unexplored States</div>
+        <div className="statusSect">
+            Unexplored States
+            <ul>
+            {props.exploredStates.map((state) => {
+                
+                return(
+                    <li className="statusItem">
+                        {state}
+                    </li>
+                )
+            })}</ul>
         
-        <div className="statusSect">Explored States
+        </div>
+        
+        <div className="statusSect">
+            Explored States
             <ul>{props.exploredStates.map((state) => {
                 
                 return(
