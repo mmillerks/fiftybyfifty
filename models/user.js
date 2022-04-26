@@ -1,5 +1,9 @@
 //pull schema and model from mongoose using object destructuring
 const { Schema, model } = require ('mongoose');
+
+const bcrypt = require('bcrypt');
+
+
 //POST for user
 
 

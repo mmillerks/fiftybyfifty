@@ -1,6 +1,6 @@
 import NavBar from "../components/NavBar/NavBar";
 import Footer from "../components/Footer/Footer";
-import LoginForm from "../components/Login Form/LoginForm";
+import SignUpForm from "../components/SignUpForm/SignUpForm";
 import UserLogin from "../components/UserLogin/UserLogin";
 
 
@@ -16,7 +16,7 @@ export default function Login(props) {
                 </h3>
             </div>
 
-            <div><LoginForm/></div>
+            <div><SignUpForm/></div>
 
             <div><UserLogin/></div>
 
