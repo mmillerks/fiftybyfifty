@@ -18,7 +18,7 @@ export default function Login(props) {
 
             <div><SignUpForm/></div>
 
-            <div><UserLogin/></div>
+            {/* <div><UserLogin/></div> */}
 
             <div><Footer/></div>
 

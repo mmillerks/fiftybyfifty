@@ -9,7 +9,7 @@ export default function HomeCarousel(props) {
             <Carousel>
                 <div>
                     <img src="https://i.imgur.com/klg7sai.jpg" />
-                    <p className="legend">Legend 1</p>
+                    <p className="legend">new adventures await</p>
                 </div>
                 <div>
                     <img src="https://i.imgur.com/woZM1D9.jpg" />
@@ -18,6 +18,18 @@ export default function HomeCarousel(props) {
                 <div>
                     <img src="https://i.imgur.com/2of4VFG.jpg" />
                     <p className="legend">Legend 3</p>
+                </div>
+                <div>
+                    <img src="https://i.imgur.com/MSa6Idi.jpg"/>
+                    <p className="legend">Legend 4</p>
+                </div>
+                <div>
+                    <img src="https://i.imgur.com/R5qSUVE.jpg"/>
+                    <p className="legend">Legend 5</p>
+                </div>
+                <div>
+                    <img src="https://i.imgur.com/JMjqk4S.jpg"/>
+                    <p className="legend">Legend 6</p>
                 </div>
             </Carousel>
 
