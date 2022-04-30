@@ -1,7 +1,7 @@
 export default function Header(props) {
     return (
-    <div className="container">
-        <div id="header">
+    <div id="container">
+        <div className="header">
             {/* <img src="https://i.imgur.com/fe7Wdm1.png" title="source: imgur.com" width="800px"/> */}
         </div>
 

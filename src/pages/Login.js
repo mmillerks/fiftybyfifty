@@ -5,12 +5,14 @@ import UserLogin from "../components/UserLogin/UserLogin";
 
 
 export default function Login(props) {
+
+
     return (
     <div>
        
             <div><NavBar/></div>
 
-            <div id="loginDisplay">
+            <div>
 
                 <div id="instructions">
                         <h3>Welcome to the 50 BY 50 <br/> community. Log in to track your journey across the United States
@@ -19,12 +21,20 @@ export default function Login(props) {
                         </h3>
                 </div>
 
-                <div>
-                        <UserLogin/> <br/>
-                        <SignUpForm setUser={props.setUser} />
+                <div className="tab">
+                        <button className="tablinks" onclick="openLogin(event, 'loginForm')">LOGIN</button>
+                        <button className="tablinks" onclick="openLogin(event, 'signinForm')">SIGNUP</button>
                 </div>
 
-                
+                <div id="loginForm" className="tabcontent">
+                        <p>Complete this form to login. If you have not created an account, select the SIGNUP tab.</p>
+                        <UserLogin/> <br/>
+                </div>
+
+                <div id="signinForm" className="tabcontent">
+                        <p>Complete this form to create an account.</p>
+                        <SignUpForm setUser={props.setUser} />
+                </div>
 
             </div>
 

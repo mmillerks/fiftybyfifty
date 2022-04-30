@@ -5,10 +5,10 @@
   font-family: 'Nanum Gothic', sans-serif;
 }
 
-
+/* 
 #home {
-  background-image: url("https://i.imgur.com/M0hwRYT.png");
-}
+  background-color: tan;
+} */
 
 /* Style the navbar */
 #navbar {
@@ -16,22 +16,32 @@
   width: 100%;
   height: 95px;
   background-attachment: fixed;
-  background-color: rgb(103, 167, 103);
+  background-color: rgb(78, 122, 78);
+}
+
+#navbar nav {
+  background-color: rgb(78, 122, 78);
 }
 
 /* Navbar links */
 #navbar a {
   color: white;
   text-align: center;
-  padding: 14px;
   text-decoration: none;
-  background-color: rgb(103, 167, 103);
+  background-color: transparent;
   font-size: 24px;
   float: right;
+  margin-right: 5%;
+  margin-top: 30px;
+}
+
+#navbar a:hover {
+  color: black;
 }
 
 #navbar img{
   margin-top: 15px;
+  background-color: transparent;
 }
 
 /* Page content */
@@ -51,16 +61,19 @@
   padding-top: 60px;
 }
 
+.container {
+  background-color: rgb(255, 222, 179);
+}
+
 #header {
   margin-top: 0;
-  background-color: transparent;
 }
 
 /* Header subtitle */
 #subtitle {
   font-size: 48px;
   text-align: center;
-  margin-top: 0;
+  margin-top: 5%;
   margin-bottom: 0;
 }
 
@@ -277,7 +290,6 @@ tl {
   width: 900px;
   border-radius: 25px;
   margin-left: 100px;
-  box-shadow: ;
 }
 
 .loginForm label {
@@ -356,3 +368,49 @@ tl {
 
 
 
+.carousel {
+  height: 450px;
+}
+
+.legend {
+  background: transparent;
+}
+
+/* Style the tab */
+.tab {
+  display: inline-block;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 70%;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: block;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
