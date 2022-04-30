@@ -164,10 +164,10 @@
 }
 
 .loginForm input {
-  padding: 10px;
-  width: 95%;
-  border-radius: 10px;
-  border-color: darkgray;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 90%;
 }
 
 
@@ -269,3 +269,90 @@ tl {
   background-color: whitesmoke;
   margin: 40px;
 }
+
+
+.loginForm {
+  background-color: tan;
+  height: 600px;
+  width: 900px;
+  border-radius: 25px;
+  margin-left: 100px;
+  box-shadow: ;
+}
+
+.loginForm label {
+  background-color: tan;
+  font-size: 20px;
+}
+
+.loginForm input {
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 85%;
+}
+
+.loginForm submit {
+  padding: 20px;
+}
+
+.loginForm img {
+  background-color: tan;
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+.loginForm form {
+  background-color: tan;
+}
+
+.loginForm button {
+  background-color: lightgrey;
+}
+
+#instructions {
+  display: flex;
+  font-size: 18px;
+  width: 20%;
+  margin-left: 30px;
+  border-right: 2px solid black;
+  padding-right: 10px;
+  justify-content: space-evenly;
+}
+
+#loginDisplay {
+  margin-top: 10%;
+  display: flex;
+}
+
+#loginForm2 {
+  margin-left: 10px;
+}
+
+#loginForm2 form {
+  display: block;
+  background-color: tan;
+  height: 400px;
+  width: 900px;
+  border-radius: 25px;
+  margin-left: 100px;
+  font-size: 18px;
+}
+
+#loginForm2 label {
+  background-color: tan;
+}
+
+#loginForm2 input {
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 90%;
+  padding: 20px;
+}
+
+
+

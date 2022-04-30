@@ -10,15 +10,23 @@ export default function Login(props) {
        
             <div><NavBar/></div>
 
-            <div>
-                <h3>Welcome to the 50 BY 50 community. Log in to track your journey across the United States
-                        and find inspiration from like-minded travelers.
-                </h3>
+            <div id="loginDisplay">
+
+                <div id="instructions">
+                        <h3>Welcome to the 50 BY 50 <br/> community. Log in to track your journey across the United States
+                                and find inspiration from like-minded travelers. Once you establish an account
+                                and log in, start tracking your progress on the MY 50 page.
+                        </h3>
+                </div>
+
+                <div>
+                        <UserLogin/> <br/>
+                        <SignUpForm setUser={props.setUser} />
+                </div>
+
+                
+
             </div>
-
-            <div><SignUpForm/></div>
-
-            {/* <div><UserLogin/></div> */}
 
             <div><Footer/></div>
 

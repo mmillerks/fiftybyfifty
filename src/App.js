@@ -38,7 +38,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/My50" element={<My50 />} />
             <Route path="/FeaturedLocation" element={<FeaturedLocation />} />
-            <Route path="/Login" element={<Login />} />
+            <Route path="/Login" element={<Login setUser={setUser} />} />
             <Route path="/Favorites" element={<Favorites />} />
         </Routes>
       </BrowserRouter>
