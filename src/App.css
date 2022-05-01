@@ -487,27 +487,64 @@ carousel.carousel-slider {
 
 #featured {
   background-color: hsl(33, 41%, 79%);
+  margin-top: 2%;
+}
+
+#categorySect {
+  background-color: hsl(33, 41%, 79%);
+  display: inline-block;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 .category {
-  display: inline-block;
- 
   background-color: hsl(33, 41%, 79%);
-
+  display: inline-block;
 }
 
 .category img {
   background-color: hsl(33, 41%, 79%);
-  width: 400px;
-  height: auto;
-  align-items: center;
+  width: 450px;
+ 
+}
+
+#featuredMini {
+  background-color: hsl(33, 41%, 79%);
+  display:flex;
+  justify-content:center; /* horizontally center */
+  align-items:center;    /* vertically center */
+}
+
+#featuredMini img {
+  display: flex;
+  background-color: hsl(33, 41%, 79%);
+  max-width:30%;
+  max-height:30%;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 #featuredTitle {
   background-color: hsl(33, 41%, 79%);
+  display:flex;
+  justify-content:center; /* horizontally center */
+  align-items:center;    /* vertically center */
+  margin: 0;
 }
 
 #featuredTitle img {
   background-color: hsl(33, 41%, 79%);
-  height: 200px;
+  max-width:60%;
+  max-height:60%;
+}
+
+#stateFavs {
+  display: flex;
+  background-color: hsl(33, 41%, 79%);
+}
+
+#stateFavs img {
+  display: flex;
+  background-color: hsl(33, 41%, 79%);
+  padding: 20px;
 }
