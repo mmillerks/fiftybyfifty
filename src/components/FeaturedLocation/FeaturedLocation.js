@@ -35,15 +35,17 @@ export default function FeaturedLocation(props) {
         </div>
     </div>
 
-    <div id="stateFavs">
+    {/* <div id="stateFavs">
       <div>
-        <img src="https://i.imgur.com/olhY9rm.png" width={"250px"}/>
+          Recommended by our community
       </div>
 
       <div>
 
       </div>
-    </div>
+    </div> */}
+
+   
     
       
      

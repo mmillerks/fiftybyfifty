@@ -1,6 +1,4 @@
 // // //pull schema and model from mongoose using object destructuring
-
-const mongoose = require("mongoose");
 const { Schema, model } = require ("mongoose");
 
 // make favorite schema

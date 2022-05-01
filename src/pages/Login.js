@@ -16,7 +16,32 @@ export default function Login(props) {
        
             <div><NavBar/></div>
 
-            <div>
+            <div class="login-component">
+                <div class="left-column">
+                        <p>Welcome to the 50 BY 50 community. Log in to track your journey across the United States
+                                and find inspiration from like-minded travelers. Once you establish an account
+                                and log in, start tracking your progress on the MY 50 page.</p>
+                </div>
+                
+                <div class="right-column">
+                        <div id="loginForm">
+                                <p>Complete this form to login. If you have not created an account, select the SIGNUP tab.</p>
+                                <UserLogin/> <br/>
+                        </div>
+
+                        <div id="signinForm">
+                                <p>Complete this form to create an account.</p>
+                                <SignUpForm setUser={props.setUser} />
+                </div>
+                </div>
+        </div>
+
+
+
+
+
+
+            {/* <div>
 
                 <div id="instructions">
                         <h3>Welcome to the 50 BY 50 <br/> community. Log in to track your journey across the United States
@@ -35,7 +60,7 @@ export default function Login(props) {
                         <SignUpForm setUser={props.setUser} />
                 </div>
 
-            </div>
+            </div> */}
 
             <div><Footer/></div>
 
