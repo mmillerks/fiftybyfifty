@@ -44,10 +44,10 @@ export default function SignUpForm({ setUser }) {
                   <label>Last Name: </label>
                   <input type="text" name="lastname" onChange={handleChange}></input> <br/>
 
-                  <label>Create a User Name: </label>
+                  <label>Create User Name: </label>
                   <input type="text" name="username" onChange={handleChange}></input> <br/>
 
-                  <label>Create a Password: </label>
+                  <label>Create Password: </label>
                   <input type="text" name="password" onChange={handleChange}></input> <br/>
 
                   <input type="submit" value="SUBMIT"></input>

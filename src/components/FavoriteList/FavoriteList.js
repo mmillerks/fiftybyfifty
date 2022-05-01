@@ -1,10 +1,9 @@
 
 export default function FavoriteList(props) {
     return (
-      <div>
-        <div>
-           <h1>See all favorites</h1>
-        </div>
+      <div id="favoriteList">
+          See all favorites
+      
 
         <div class="card text-center">
             <div class="card-header">

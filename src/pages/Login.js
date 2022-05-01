@@ -25,12 +25,10 @@ export default function Login(props) {
                 
                 <div class="right-column">
                         <div id="loginForm">
-                                <p>Complete this form to login. If you have not created an account, select the SIGNUP tab.</p>
                                 <UserLogin/> <br/>
                         </div>
 
                         <div id="signinForm">
-                                <p>Complete this form to create an account.</p>
                                 <SignUpForm setUser={props.setUser} />
                 </div>
                 </div>

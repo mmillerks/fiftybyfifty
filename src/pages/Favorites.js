@@ -6,7 +6,7 @@ import AddFavorite from "../components/AddFavorite/AddFavorite";
 
 export default function Favorites(props) {
     return (
-    <div>
+    <div id="favoritePg">
        
             <div><NavBar/></div>
 

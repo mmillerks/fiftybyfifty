@@ -28,9 +28,8 @@ export default class UserLogin extends Component {
       return (
         <div>
             <div className="form-container">
-                <div id="loginForm2">
-
-                    <form autoComplete="off" onSubmit={this.handleSubmit}>
+                
+                    <form id="loginForm2" autoComplete="off" onSubmit={this.handleSubmit}>
                         <img src="https://i.imgur.com/E0YUIhc.png?1" />
 
                         <label>User Name:</label>
@@ -41,7 +40,7 @@ export default class UserLogin extends Component {
                         <input type="password" name="confirm" value={this.state.confirm} onChange={this.handleChange} required />
                         <button type="submit" disabled={disable}>SIGN IN</button>
                     </form>
-                </div>
+              
             </div>
 
         <p className="error-message">&nbsp;{this.state.error}</p>
