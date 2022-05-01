@@ -4,6 +4,7 @@ import About from "../components/About/About";
 import FeaturedLocation from "../components/FeaturedLocation/FeaturedLocation";
 import Footer from "../components/Footer/Footer";
 
+
 import React from "react";
 import HomeCarousel from "../components/HomeCarousel/HomeCarousel";
 

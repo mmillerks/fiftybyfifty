@@ -30,8 +30,9 @@ export default class UserLogin extends Component {
             <div className="form-container">
                 <div id="loginForm2">
 
-                    <img src="https://i.imgur.com/E0YUIhc.png?1" />
                     <form autoComplete="off" onSubmit={this.handleSubmit}>
+                        <img src="https://i.imgur.com/E0YUIhc.png?1" />
+
                         <label>User Name:</label>
                         <input type="text" name="name" value={this.state.name} onChange={this.handleChange} required />
                         <label>Password:</label>

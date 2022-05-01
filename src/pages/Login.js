@@ -3,6 +3,10 @@ import Footer from "../components/Footer/Footer";
 import SignUpForm from "../components/SignUpForm/SignUpForm";
 import UserLogin from "../components/UserLogin/UserLogin";
 
+import { useState } from "react";
+
+
+
 
 export default function Login(props) {
 
@@ -21,17 +25,12 @@ export default function Login(props) {
                         </h3>
                 </div>
 
-                <div className="tab">
-                        <button className="tablinks" onclick="openLogin(event, 'loginForm')">LOGIN</button>
-                        <button className="tablinks" onclick="openLogin(event, 'signinForm')">SIGNUP</button>
-                </div>
-
-                <div id="loginForm" className="tabcontent">
+                <div id="loginForm">
                         <p>Complete this form to login. If you have not created an account, select the SIGNUP tab.</p>
                         <UserLogin/> <br/>
                 </div>
 
-                <div id="signinForm" className="tabcontent">
+                <div id="signinForm">
                         <p>Complete this form to create an account.</p>
                         <SignUpForm setUser={props.setUser} />
                 </div>

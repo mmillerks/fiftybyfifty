@@ -17,15 +17,17 @@
   height: 95px;
   background-attachment: fixed;
   background-color: rgb(78, 122, 78);
+  
 }
 
 #navbar nav {
   background-color: rgb(78, 122, 78);
+  box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
 }
 
 /* Navbar links */
 #navbar a {
-  color: white;
+  color: rgb(45, 68, 45);
   text-align: center;
   text-decoration: none;
   background-color: transparent;
@@ -33,15 +35,17 @@
   float: right;
   margin-right: 5%;
   margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;;
 }
 
 #navbar a:hover {
-  color: black;
+  color: white;
 }
 
 #navbar img{
-  margin-top: 15px;
   background-color: transparent;
+  height: 95px;
+  width: auto;
 }
 
 /* Page content */
@@ -62,11 +66,17 @@
 }
 
 .container {
-  background-color: rgb(255, 222, 179);
+  background-color: tan;
+  opacity: 50%;
+}
+
+#home {
+  background-color: tan;
 }
 
 #header {
   margin-top: 0;
+  background-color: tan;
 }
 
 /* Header subtitle */
@@ -75,6 +85,7 @@
   text-align: center;
   margin-top: 5%;
   margin-bottom: 0;
+  background-color: tan;
 }
 
 #tagline {
@@ -82,6 +93,7 @@
   text-align: center;
   margin-top: 0;
   font-style: italic;
+  background-color: tan;
 }
 
 
@@ -94,7 +106,8 @@
   flex-direction: column;
   align-items: center;
   margin-top: 5%;
-  background-color: transparent;
+  background-color: tan;
+  opacity: 50%;
 }
 
 #pin img{
@@ -171,6 +184,7 @@
 }
 
 .loginForm {
+
   background-color: whitesmoke;
   width: 80%;
   padding: 20px;
@@ -304,8 +318,9 @@ tl {
   width: 85%;
 }
 
-.loginForm submit {
+.loginForm button {
   padding: 20px;
+  margin-top: 20px;
 }
 
 .loginForm img {
@@ -344,6 +359,16 @@ tl {
   margin-left: 10px;
 }
 
+#loginForm2 img {
+  background-color: tan;
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+
 #loginForm2 form {
   display: block;
   background-color: tan;
@@ -372,9 +397,39 @@ tl {
   height: 450px;
 }
 
-.legend {
-  background: transparent;
+div.carousel {
+  background-color: tan;
 }
+
+div.carousel-root {
+  outline: none;
+  background-color: tan;
+}
+
+carousel.carousel-slider {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  background-color: white;
+  height: 350px;
+}
+
+.carousel .control-dots {
+  position: absolute;
+  bottom: 0;
+  margin: 10px 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.carousel .thumbs-wrapper {
+  background-color: white;
+  opacity: 75%;
+  width: 100%; 
+}
+
 
 /* Style the tab */
 .tab {
@@ -383,6 +438,7 @@ tl {
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   width: 70%;
+  padding: 20px;
 }
 
 /* Style the buttons that are used to open the tab content */
