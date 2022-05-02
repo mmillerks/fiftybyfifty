@@ -178,6 +178,39 @@
   font-size: 24px;
 }
 
+#footSects {
+  display: flex;
+  width: 800px;
+  margin-left: 15%;
+  background-color: darkgrey;
+}
+
+#sect1 {
+  flex:3;
+  margin-right: 40px;
+  margin-top: 25px;
+  background-color: darkgrey;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#sect2 {
+  flex: 4;
+  margin-right: 40px;
+  margin-top: 25px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: darkgrey;
+
+}
+
+#sect3 {
+  flex: 5;
+  margin-right: 40px;
+  margin-top: 25px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: darkgrey;
+
+}
+
 .states {
   background: whitesmoke;
   font-size: 20px;
@@ -338,7 +371,7 @@ thead {
 }
 
 .loginForm button {
-  padding: 20px;
+  padding: 10px;
   margin-top: 20px;
 }
 
@@ -405,7 +438,7 @@ thead {
   justify-content: center;
   margin-left: 30%;
   margin-right: 30%;
-  width: 300px;
+  width: 100px;
 }
 
 #loginForm2 img {

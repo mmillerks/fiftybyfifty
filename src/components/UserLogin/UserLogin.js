@@ -39,6 +39,7 @@ export default class UserLogin extends Component {
                         <label>Confirm Password:</label>
                         <input type="password" name="confirm" value={this.state.confirm} onChange={this.handleChange} required />
                         <button type="submit" disabled={disable}>SIGN IN</button>
+                        <button type="">CREATE ACCOUNT</button> 
                     </form>
               
             </div>
