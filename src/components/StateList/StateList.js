@@ -78,7 +78,7 @@ export default function StateList(props) {
 
       
     return (
-        <div id="expandable">
+        <div id="expandable1">
             <button
                 {...getToggleProps({
                 onClick: () => setExpanded((prevExpanded) => !prevExpanded),

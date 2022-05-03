@@ -1,8 +1,9 @@
-const Favorite = require('../../models/favoriteLocation')
+const Favorite = require('../../models/favoriteLocation');
+
 ;
 // module.exports = {
 //     create,
-//     read,
+//     show,
 //     update,
 //     delete
 //   };
@@ -10,7 +11,7 @@ const Favorite = require('../../models/favoriteLocation')
 
 //function create(req, res) {}
 
-//function read(req, res) {}
+//function show(req, res) {}
 
 //function update(req, res) {}
 

@@ -222,12 +222,26 @@
 
 .MyMap {
   background: hsl(33, 41%, 79%);
-  display: block;
-  align-items: center;
+  display: flex;
 }
 
-.MyMap img {
-  background-color: transparent;
+#MyMapTitle {
+  background-color: hsl(34, 35%, 68%);
+  height: 100%;
+  width: 400px;
+  display: flex;
+
+}
+
+#MyMapImg {
+  background-color: hsl(33, 41%, 79%);
+  width: 80%;
+  align-items: center;
+  margin-left: 10%;
+}
+
+#MyMapImg img{
+  background-color: hsl(33, 41%, 79%);
   width: 80%;
   align-items: center;
   margin-left: 10%;
@@ -266,7 +280,25 @@ thead {
   background-color: hsl(33, 41%, 79%);
 }
 
+#expandable1 {
+  display: block;
+  background-color: white;
+}
+
 #expandable button {
+  display: block;
+  width: 80%;
+  height: 50px;
+  background-color: rgb(78, 122, 78);
+  color: white;
+  font-size: 24px;
+  border: none;
+  margin-right: 10%;
+  margin-left:10%;
+  margin-top: 2%;
+}
+
+#expandable1 button {
   display: block;
   width: 80%;
   height: 50px;
@@ -296,6 +328,11 @@ thead {
   font-size: 24px;
 }
 
+.expand ul {
+  margin-left: 15%;
+}
+
+
 #welcome {
   font-size: 36px;
   display: block;
@@ -304,7 +341,7 @@ thead {
 
 .status {
   display: flex;
-  background-color: hsl(33, 41%, 79%);
+  background-color: rgb(78, 122, 78);
   margin: 20px;
 }
 
@@ -313,8 +350,9 @@ thead {
   display: flex;
   background-color: hsl(36, 37%, 85%);
   width: 30%;
-  height: 150px;
-  margin: 20px;;
+  height: 250px;
+  margin: 20px;
+  border-radius: 5%;
 }
 
 
@@ -631,5 +669,17 @@ carousel.carousel-slider {
 
 #favoriteList {
   background-color: hsl(33, 41%, 79%);
+}
 
+.linkButtons {
+
+}
+
+.explore {
+  width: 300px;
+  height: 50px;
+  background-color: rgb(78, 122, 78);
+  margin: 20px;
+  color: white;
+  font-size: 24px;
 }

@@ -10,6 +10,13 @@ export default function Favorites(props) {
 
             <div><FeaturedLocation/></div>
 
+            <div className="linkButtons">
+                <button className="explore">Explore Washington</button>
+                <button className="explore">Explore New York</button>
+                <button className="explore">Explore North Carolina</button>
+
+            </div>
+
             <div><Footer/></div>
 
 

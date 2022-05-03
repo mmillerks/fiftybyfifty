@@ -37,9 +37,6 @@ console.log(props)
         
         <div className="statusSect">Progress
             <Progress_bar> </Progress_bar>
-            <br/>
-
-            <Progress_bar> </Progress_bar>
     
         </div>
 
