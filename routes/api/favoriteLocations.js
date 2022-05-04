@@ -2,16 +2,19 @@ const express = require('express');
 const router = express.Router();
 const favesCtrl = require('../../controllers/api/favoriteLocations-api');
 
-// // POST /api/favoriteLocations/create
-// router.post('/favoriteLocations', favesCtrl.create);
 
-// // POST /api/favoriteLocations/read
-// router.post('/read', favesCtrlCtrl.read);
+//CREATE
+router.post('/', favesCtrl.create);
+
+// // GET /api/favoriteLocations/favorites
+// router.get('/read', favesCtrlCtrl.read);
 //
 
 //update
+// PUT
 
 //delete
+// DELETE
 
 
 module.exports = router;
