@@ -1,3 +1,27 @@
+Welcome to 50 BY 50, a travel tracking application.
+
+*SUMMARY*
+This app is a designed for users who aspire to travel to each state in the United States of America by age 50. After creating an account, users can track states visited and monitor progress. In addition, users and visitors alike can find travel inspiration in the Featured Locations section. Users may also utilize the Favorites log to memorialize places visited while traveling. 
+
+[Imgur](https://i.imgur.com/nPccIFK.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
