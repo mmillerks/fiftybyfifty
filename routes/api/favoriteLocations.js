@@ -6,15 +6,14 @@ const favesCtrl = require('../../controllers/api/favoriteLocations-api');
 //CREATE
 router.post('/', favesCtrl.create);
 
-// // GET /api/favoriteLocations/favorites
-// router.get('/read', favesCtrlCtrl.read);
-//
+// GET 
+router.get('/read', favesCtrl.read);
 
-//update
-// PUT
+//UPDATE
+router.put('/update', favesCtrl.update);
 
-//delete
-// DELETE
+//DELETE
+router.delete('/delete', favesCtrl.delete);
 
 
 module.exports = router;

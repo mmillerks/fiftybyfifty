@@ -1,3 +1,9 @@
+//import { useState, useEffect } from "react";
+
+// import { useEffect, useState } from "react";
+// const axios = require('axios').default;
+
+
 // //write a hook below useEffect to fetch using axios to get the apifavorites to return list
 
 
@@ -6,6 +12,30 @@
 //   //hook w useEffect and empty dependency
 //   //set state to call set favoriteLocation 
   
+//function useFavorite() {
+    // const[favePlace, setFavePlace] = useState(null);
+
+    // useEffect(() => {
+    //   function handle() {
+    //     setFavePlace(xxx.favePlace);
+    //   }
+    
+    // axios.get('')
+    //   .then(function (response) {
+    //     //handle success
+    //     console.log(response);
+    //   })
+    //   .catch(function (error) {
+    //     //handle error
+    //     console.log(error)l;
+    //   })
+    //   .then(function () {
+    //     //exceute
+    //   });
+    
+    // });
+
+
 //   return (
 
 //       <div id="favoriteList">
