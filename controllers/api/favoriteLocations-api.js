@@ -4,10 +4,13 @@ const Favorite = require('../../models/favoriteLocation');
 
 async function create(req, res) {
     const favorite =  await Favorite.create(req.body);
-    res.status(200).json(favorite)
+    res.status(201).json(favorite)
 }
 
-//function show(req, res) {}
+async function read (req, res) {
+    const favorites = await Favorite.find();
+    res.status(200).json(favorites)
+}
 
 //function update(req, res) {}
 
@@ -15,7 +18,7 @@ async function create(req, res) {
 
 module.exports = {
   create,
-//     show,
+  read,
 //     update,
 //     delete
   };
