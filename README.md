@@ -10,12 +10,17 @@ This app is designed for users who aspire to travel to each state in the United 
 
 
 **INSTALLATION INSTRUCTIONS**
+This is a cloud-based application that requires no installation. 
 
 
 **HOW TO USE**
-
+Visitors to 50 BY 50 can find travel inspiration on the FEATURED LOCATION page.<br/>
+Those who aspire to use the tracking application and related tools must first establish a user account on the LOGIN page. After doing so and logging in, users can access the MY 50 page to begin tracking state visits. The tracking tool will also establish which states are left to visit and the progress made. In addtion, users have the opportunity to add favorite travel locations and memories via the FAVORITES page. 
 
 **TECHNOLOGIES USED**
+React
+MongoDB
+Axios
 
 
 
@@ -27,9 +32,9 @@ This app is designed for users who aspire to travel to each state in the United 
 
 
 **CREDITS**
-Resources utilized include the following:
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-UX Design Partner: Frances Vazquez https://hijasdetierra.wixsite.com/
-Open source photos from <href="https://magdeleine.co/" title="Magdeleine" />, 
-Progress Bar: Geeks for Geeks npx create-react-app progress_bar
+Resources utilized include the following:<br/>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br/>
+UX Design Partner: Frances Vazquez https://hijasdetierra.wixsite.com/<br/>
+Open source photos from <href="https://magdeleine.co/" title="Magdeleine" />, <br/> 
+Progress Bar: Geeks for Geeks npx create-react-app progress_bar <br/>
 
