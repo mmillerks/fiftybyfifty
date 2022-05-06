@@ -15,7 +15,7 @@ This is a cloud-based application that requires no installation.
 
 **HOW TO USE**<br/>
 Visitors to 50 BY 50 can find travel inspiration on the FEATURED LOCATION page.<br/>
-<img src="https://i.imgur.com/0CkaIhR.png/>
+<img src="https://i.imgur.com/0CkaIhR.png/" />
 <br/>
 
 Those who aspire to use the tracking application and related tools must first establish a user account on the LOGIN page. 
