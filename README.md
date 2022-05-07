@@ -1,4 +1,4 @@
-# Welcome to 50 BY 50, a travel tracking application.
+# Welcome to 50 BY 50, a travel tracking application
 
 **SUMMARY**<br/>
 This app is designed for users who aspire to travel to each state in the United States of America by age 50. After creating an account, users can track states visited and monitor progress. In addition, users and visitors alike can find travel inspiration in the Featured Locations section. Users may also utilize the Favorites log to memorialize places visited while traveling. 
@@ -44,7 +44,10 @@ It was conceptualized using the following wireframes.<br/>
 <img src="https://i.imgur.com/RSFWDOa.png" />
 
 Then, working with a UX designer, the following low-fidelity inspiration boards were developed. <br/>
-<img src="https://i.imgur.com/T9LHPa2.png">
+<img src="https://i.imgur.com/T9LHPa2.png" />
+
+Structure of ths project is explained via this ERD:
+<img src="https://i.imgur.com/kVaNTik.png" />
 
 
 **UNSOLVED CHALLENGES**<br/>
