@@ -38,17 +38,12 @@ Axios<br/>
 
 
 **PROJECT MANAGEMENT**<br/>
-This application was developed using the Trello management tool.<br/>
+This application was developed using the Trello management tool: https://trello.com/b/7i5SRMae/sei-project-3-50by50 <br/>
+
 It was conceptualized using the following wireframes.<br/>
+<img src="https://i.imgur.com/RSFWDOa.png" />
 
-<img src="https://i.imgur.com/UdoDMYo.jpg" width="30%" />
-<img src="https://i.imgur.com/OUxEW8y.jpg" width="30%" />
-<img src="https://i.imgur.com/oN4lqE3.jpg" width="30%" />
-<img src="https://i.imgur.com/cAn3LBr.jpg" width="30%" />
-<img src="https://i.imgur.com/J2gO4jJ.jpg" width="30%" />
-
-In working with a UX designer, the following low-fidelity inspiration boards were developed. <br/>
-
+Then, working with a UX designer, the following low-fidelity inspiration boards were developed. <br/>
 <img src="https://i.imgur.com/T9LHPa2.png">
 
 
