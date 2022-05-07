@@ -10,7 +10,7 @@ console.log(props)
         <div className="statusSect">
             Unexplored States
             <ul>
-            {props.exploredStates.map((state) => {
+            {props.visitedStates.map((state) => {
                 
                 return(
                     <li className="statusItem">
@@ -23,7 +23,7 @@ console.log(props)
         
         <div className="statusSect">
             Explored States
-            <ul>{props.exploredStates.map((state) => {
+            <ul>{props.visitedStates.map((state) => {
                 
                 return(
                     <li className="statusItem">

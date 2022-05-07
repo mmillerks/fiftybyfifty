@@ -68,7 +68,7 @@ export default function StateList(props) {
 
     // props.onStateExplored(state)
 
-    setStatesVisited([...statesVisited, state ])
+    props.setVisitedStates([...props.visitedStates, state ])
 
     }
     

@@ -12,6 +12,8 @@ import My50Status from "../components/My50Status/My50Status";
 
 export default function My50(props) {
 
+    const [visitedStates, setVisitedStates] = useState([]);
+
     const [exploredStates, setExploredStates] = useState([])
     // const unexploredStates = useState([])
     
@@ -32,10 +34,10 @@ export default function My50(props) {
         <div id="welcome">Welcome </div>
         <br/>
 
-        <div><StateList onStateExplored={handleStateExplored} /></div>
+        <div><StateList onStateExplored={handleStateExplored} visitedStates={visitedStates} setVisitedStates={setVisitedStates} /></div>
         <br/>
 
-        <div><My50Status exploredStates={exploredStates}/></div>
+        <div><My50Status exploredStates={exploredStates} visitedStates={visitedStates} setVisitedStates={setVisitedStates}/></div>
         <br/>
 
         <div><MyMap /></div>
@@ -49,3 +51,5 @@ export default function My50(props) {
     </div>
     );
   } 
+
+

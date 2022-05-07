@@ -9,7 +9,7 @@ This app is designed for users who aspire to travel to each state in the United 
 **LINK**<br/>
 
 
-**INSTALLATION INSTRUCTIONS**<br/>
+**INSTILLATION INSTRUCTIONS**<br/>
 This is a cloud-based application that requires no installation. 
 
 
