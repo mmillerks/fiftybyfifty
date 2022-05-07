@@ -37,23 +37,27 @@ export default function FavoriteList(props) {
 
             <div>
             
-                <div class="card-header">
+                <div>
                   {favePlace.map((fave, i) => {
                               return(
 
                                 <div>
-                                
                                     <div class="card-title"> 
-                                    {fave.city}, {fave.state}
+                                      {fave.city}, {fave.state}
                                     </div>
 
                                     <div class="card-body"> 
-                                          
-                                            <img src="https://i.imgur.com/oHuG2bI.png"></img>
-                                            {fave.memories}
-                                            <button>DELETE</button>
-                                            <button>EDIT</button>
-                        
+                                      <img src="https://i.imgur.com/oHuG2bI.png"></img>
+                                      <h2>{fave.place}</h2>
+                                    </div>
+
+                                    <div class="card-text">
+                                      {fave.memories}
+                                    </div>
+
+                                    <div class="card-footer">
+                                        <button>DELETE</button>
+                                        <button>EDIT</button>
                                     </div>
 
                                 </div>
