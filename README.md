@@ -23,7 +23,7 @@ Those who aspire to use the tracking application and related tools must first es
 <br/>
 
 After doing so and logging in, users can access the MY 50 page to begin tracking state visits. The tracking tool will also establish which states are left to visit and the progress made. 
-<img/>
+<img src="https://i.imgur.com/9MTrOwb.png/>" />
 <br/>
 
 In addtion, users have the opportunity to add favorite travel locations and memories via the FAVORITES page.
@@ -34,7 +34,7 @@ In addtion, users have the opportunity to add favorite travel locations and memo
 React<br/>
 MongoDB<br/>
 Axios<br/>
-
+Bootstrap<br />
 
 
 **PROJECT MANAGEMENT**<br/>
@@ -48,13 +48,17 @@ Then, working with a UX designer, the following low-fidelity inspiration boards 
 
 
 **UNSOLVED CHALLENGES**<br/>
-
+*Deploy without breaking
+*Tie user authentication to page functionality
+*Full log in functionality
+*Interactive map
+*CRUD routing
 
 
 **CREDITS**
 Resources utilized include the following:<br/>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br/>
 UX Design Partner: Frances Vazquez https://hijasdetierra.wixsite.com/<br/>
-Open source photos from <href="https://magdeleine.co/" title="Magdeleine" />, <br/> 
+Open source photos from Magdeleine (https://magdeleine.co/) <br/> 
 Progress Bar: Geeks for Geeks npx create-react-app progress_bar <br/>
 
