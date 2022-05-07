@@ -31,7 +31,7 @@ export default function My50(props) {
         <div><NavBar /></div>
         <br/>
 
-        <div id="welcome">Welcome </div>
+        <div id="welcome">Welcome, traveler! </div>
         <br/>
 
         <div><StateList onStateExplored={handleStateExplored} visitedStates={visitedStates} setVisitedStates={setVisitedStates} /></div>

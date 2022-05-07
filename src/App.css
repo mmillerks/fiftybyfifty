@@ -222,29 +222,34 @@
 
 .MyMap {
   background: hsl(33, 41%, 79%);
-  display: flex;
+  display: block;
 }
 
 #MyMapTitle {
   background-color: hsl(34, 35%, 68%);
   height: 100%;
-  width: 400px;
-  display: flex;
+  width: 100%;
+  display: block;
+}
 
+#MyMapTitle button[type=submit] {
+  border: none;
+  margin: 5px;
 }
 
 #MyMapImg {
   background-color: hsl(33, 41%, 79%);
   width: 80%;
   align-items: center;
-  margin-left: 10%;
+  display: block;
 }
 
 #MyMapImg img{
   background-color: hsl(33, 41%, 79%);
-  width: 80%;
+  width: 100%;
   align-items: center;
   margin-left: 10%;
+  display: block;
 }
 
 
@@ -325,18 +330,20 @@ thead {
 
 .expand {
   display: flex;
-  font-size: 24px;
+  font-size: 18px;
+  margin-left: 25%;
 }
 
 .expand ul {
-  margin-left: 15%;
+  align-items:center;
 }
 
 
 #welcome {
   font-size: 36px;
   display: block;
-  margin-left: 30px;
+  margin-left: 40%;
+  margin-right: 30%
 }
 
 .status {
@@ -353,6 +360,22 @@ thead {
   height: 250px;
   margin: 20px;
   border-radius: 5%;
+}
+
+
+.statusSect ul  {
+  background-color: hsl(36, 37%, 85%);
+}
+
+.statusSect p {
+  background-color: hsl(36, 37%, 85%);
+  padding-left: 13px;
+  font-size: 24px ;
+
+}
+
+.statusItem {
+  background-color: hsl(36, 37%, 85%);
 }
 
 
@@ -441,16 +464,14 @@ thead {
   background-color: hsl(33, 41%, 79%);
 }
 
-
-#instructions {
-  display: flex;
-  font-size: 18px;
-  width: 20%;
-  margin-left: 30px;
-  border-right: 2px solid black;
-  padding-right: 10px;
-  justify-content: space-evenly;
+.loginForm input[type=submit]{
+  width: 300px;
+  margin-left: 30%;
+  background-color: hsl(34, 28%, 71%);
+  border-radius: 5%;
 }
+
+
 
 #loginDisplay {
   margin-top: 10%;
@@ -669,13 +690,16 @@ carousel.carousel-slider {
 
 .left-column{
   flex:1;
-  text-align:justify;
+  text-align: right;
   padding:2%;
+  font-size: 24px;
 }
 /* .left-column > p { border: solid red;} */
 .right-column{
 /* right column takes up 2x the space available */
   flex:2;
+  margin-top: 30px;
+  margin-right: 25px;
 }
 
 #favoritePg {

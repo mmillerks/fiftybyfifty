@@ -8,7 +8,7 @@ console.log(props)
     return (
     <div className="status">
         <div className="statusSect">
-            Unexplored States
+            <p>UNEXPLORED STATES</p>
             <ul>
             {props.visitedStates.map((state) => {
                 
@@ -22,7 +22,7 @@ console.log(props)
         </div>
         
         <div className="statusSect">
-            Explored States
+            <p>EXPLORED STATES</p>
             <ul>{props.visitedStates.map((state) => {
                 
                 return(
@@ -35,7 +35,8 @@ console.log(props)
 
         
         
-        <div className="statusSect">Progress
+        <div className="statusSect">
+            <p>PROGRESS</p>
             <Progress_bar> </Progress_bar>
     
         </div>

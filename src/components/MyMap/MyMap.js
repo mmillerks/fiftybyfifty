@@ -19,11 +19,21 @@ export default function MyMap(props) {
         <div className="MyMap">
 
             <div id="MyMapTitle">
-                STATES <br />
                 <button type="submit">Explored States</button>
                 <button type="submit">Yet to Explore</button>
-            
             </div>
+
+            {/* <div>
+                <ul>{props.visitedStates.map((state) => {
+                    
+                    return(
+                        <li className="statusItem">
+                            {state}
+                        </li>
+                    )
+                })} </ul>
+            </div> */}
+
             <div id="MyMapImg"><img src="https://i.imgur.com/g9FWsKz.png"></img></div>
         </div>
     </div>

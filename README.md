@@ -19,7 +19,7 @@ Visitors to 50 BY 50 can find travel inspiration on the FEATURED LOCATION page.<
 <br/>
 
 Those who aspire to use the tracking application and related tools must first establish a user account on the LOGIN page. 
-<img/>
+<img src="https://i.imgur.com/NblXrzO.png/" />
 <br/>
 
 After doing so and logging in, users can access the MY 50 page to begin tracking state visits. The tracking tool will also establish which states are left to visit and the progress made. 
